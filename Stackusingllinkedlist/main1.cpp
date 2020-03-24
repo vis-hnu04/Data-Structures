@@ -7,7 +7,7 @@ int main(){
     int  choice;
     int value;
     while(1){
-        std::cout << "1. Push element \n";
+                std::cout << "1. Push element \n";
 		std::cout << "2. Pop element \n";
 		std::cout << "3. Display top most element \n";
 		std::cout << "4. Display filled size of stack \n";
@@ -15,7 +15,7 @@ int main(){
 		std::cout << "Enter option: ";
 		std::cin >> choice;
         switch(choice){
-            case 1:
+               case 1:
 			std::cout << "Enter number: ";
 			std::cin >> value;
 			s.push(value);
