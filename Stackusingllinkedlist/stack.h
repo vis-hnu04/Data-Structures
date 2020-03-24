@@ -9,15 +9,15 @@ namespace ds{
 template<typename T>    
 class Stack {
 	int n; //current size of the list
-	Singlell<T> S;	//generic linked list type Elem (string)
+	Singlell<T> S;	//generic linked list type Elem 
 
 public:
 	Stack()	                                    //init Linked list in stack, and number of items
 		: S(), n(0) {};
 	int size() const;	                        //return number of elements in list
 	bool isEmpty() const;	
-	const T& top() const throw(Exeption);	//invoke S.front()
-	void push(const T& newElement);	            //ivoke S.addFront()
+	const T& top() const throw(Exeption);	         //invoke S.front()
+	void push(const T& newElement);	                  //ivoke S.addFront()
 	void pop() throw(Exeption);		            //invoke S.removeFront()
 };
 
